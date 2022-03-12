@@ -3,7 +3,8 @@ import numpy as np
 
 path = input("Enter image path: ")
 image = cv2.imread(path)
-width, height= image.shape[0], image.shape[1]
+width, height = image.shape[0], image.shape[1]
+
 
 def empty(a):
     pass
